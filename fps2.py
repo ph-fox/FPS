@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import socket, time, os, readlines
+import socket, time, os, readline
 
 try:
 	from IPy import IP

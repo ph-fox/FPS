@@ -40,7 +40,7 @@ def thread(host):
 if __name__=="__main__":
 	try:
 		host = sys.argv[1]
-		os.system('del open_ports.txt')
+		os.system('rm open_ports.txt')
 		thread(host)
 	except:
 		print(f"By: Anikin Luke\nUsage:\n python3 {os.path.basename(__file__)} <host>")
